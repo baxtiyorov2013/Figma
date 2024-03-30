@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenir {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0B0B0B;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 1.04px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.imgas {
+    display: flex;
+    gap: 16px;
+}
+
+.background {
+    background-image: url(./IMAGE.svg);
+    width: 100%;
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 125px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 115px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.flex__cards {
+    display: flex;
+}
+
+.card {
+    width: 690px;
+    height: 740px;
+    background: rgb(74, 0, 255);
+}
+
+.card__black {
+    width: 690px;
+    height: 740px;
+    background: rgb(11, 11, 11);
+}
+
+.title__card {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 333px;
+    height: 132px;
+}
+
+.padding {
+    padding-left: 112px;
+    padding-top: 222px;
+}
+
+.subtitle__card {
+    padding-top: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 416px;
+    height: 68px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 9999px;
+    margin-top: 52px;
+    border: none;
+    background: rgb(11, 11, 11);
+    width: 145px;
+    height: 35px;
+}
+
+.title__card-black {
+    padding-top: 222px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 154px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card__gren {
+    width: 690px;
+    height: 740px;
+    background: rgb(0, 255, 157);
+}
+
+.title__card-gren {
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 374px;
+    height: 132px;
+}
+
+.subtitle__card-gren {
+    padding-top: 28px;
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 405px;
+    height: 135px;
+}
+
+.card__orang {
+    width: 690px;
+    height: 740px;
+    background: rgb(255, 139, 0);
+}
+
+.title__card-orang {
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 415px;
+    height: 88px;
+}
+
+.subtitle__card-orang {
+    padding-top: 28px;
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 404px;
+    height: 90px;
+}
+
+.btn__gren-card {
+    border-radius: 9999px;
+    margin-top: 52px;
+    background: rgb(11, 11, 11);
+    width: 229px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    border: #0B0B0B 3px solid;
+}
+
+.title__section-3 {
+    padding-top: 47px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.background__color {
+    background: rgb(11, 11, 11);
+    padding-bottom: 64px;
+}
+
+.flex__images {
+    display: flex;
+    gap: 10px;
+    padding-top: 57px;
+    padding-left: 24px;
+}
+
+.background__img {
+    background-image: url(./IMAGE\ \(2\).png);
+    width: 450px;
+    height: 600px;
+}
+
+.title__background-img {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.padding__background-img {
+    padding-left: 32px;
+    padding-top: 429px;
+}
+
+.btn__card-orang {
+    border-radius: 9999px;
+
+    margin-top: 52px;
+    background: rgb(11, 11, 11);
+    width: 229px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+.subtitle__background-img {
+    padding-top: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 374px;
+    height: 86px;
+}
+
+.background__img-womn {
+    background-image: url(./IMAGE\ \(3\).png);
+    width: 450px;
+    height: 600px;
+}
+
+.background__img-boy {
+    background-image: url(./IMAGE\ \(4\).png);
+    background-repeat: no-repeat;
+
+}
+
+.subtitle__background-img1 {
+    width: 290px;
+    height: 86px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.radiius {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 9999px;
+    width: 68px;
+    height: 68px;
+}
+
+.flex__strelka {
+    display: flex;
+    gap: 16px;
+    padding-left: 24px;
+    padding-top: 70px;
+}
+
+.padding__left {
+    padding-left: 24px;
+    padding-top: 31px;
+}
+
+.title__tablet {
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31.2px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.table {
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px gray solid;
+    padding-right: 24px;
+}
+
+.subtitle__table {
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__title {
+    padding-top: 59px;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer {
+    background: rgb(11, 11, 11);
+    height: 302px;
+    margin-top: 20px;
+}
+
+.footer__btn {
+    color: rgb(11, 11, 11);
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 9999px;
+    margin-left: 568px;
+    margin-top: 50px;
+    background: rgb(255, 255, 2);
+    width: 145px;
+    height: 35px;
+    border: none;
+}
